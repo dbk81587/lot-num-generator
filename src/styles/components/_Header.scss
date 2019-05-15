@@ -1,0 +1,14 @@
+.fs {
+    font-size: 1.2rem;
+}
+
+@media (min-width: 440px) {
+    .fs {
+        font-size: 2rem;
+    }
+}
+
+.navbg {
+    background-color: #232F3E;
+    margin-bottom: 20px;
+}

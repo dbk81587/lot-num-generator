@@ -1,0 +1,48 @@
+.smGlobalBtn {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    box-shadow: 0 2px 2px #999;
+    padding: 0px;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+    font-weight: normal;
+    line-height: 2em;
+    border-radius: 25px;
+    -moz-border-radius:25px;
+    -webkit-border-radius:25px;
+    background:#00ABE3;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 600px) {
+    .smGlobalBtn {
+        width: 32px;
+        height: 32px;
+        font-size: 17px;
+    }
+
+}
+@media screen and (max-width: 430px) {
+    .smGlobalBtn {
+        width: 30px;
+        height: 30px;
+        font-size: 15px;
+        margin-left: 2px;
+        margin-right: 2px;
+    }
+
+}
+
+.opct {
+    animation: fadein 1s;
+    transition: 1s;
+}
+
+@keyframes fadein{from{opacity:0} to{opacity:1}}
